@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'RubikDirt';
+    src: url('fonts/RubikDirt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Caveat';
+    src: url('fonts/Caveat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 150px;
+    background-color: #FBEE9F;
+    box-shadow: 1px -3px 12px 7px darkgrey;
+    margin-bottom: 100px;
+}
+header > h1 {
+    margin: 0;
+    padding: 40px 0;
+    text-align: center;
+    color: rgb(65, 60, 60);
+} 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 10px;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #FBEE9F;
+    box-shadow: 3px 2px 5px 5px grey;
+}
+
+h1, h2, h3 {
+    font-family: 'RubikDirt';
+    color: rgb(65, 60, 60);;
+}
+
+button {
+    background-color: rgb(65, 60, 60);
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 15px;
+}
+button a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Caveat';
+    font-size: 18px;
+}
+
+footer {
+    height: 100px;
+    background-color: #FBEE9F;
+    box-shadow: 1px -3px 12px 7px darkgrey;
+    margin-top: 100px;
+    text-align: right;
+}
+
+footer p {
+    padding: 40px 15px;
+    font-family: 'RubikDirt';
+}
