@@ -16,7 +16,7 @@ body, html {
 }
 
 .header__heading {
-    background-color: blue;
+    background-color: #530AEE;
     color: white;
     height: 50px;
     width: 100%;
@@ -59,7 +59,7 @@ body, html {
 }
 .content__heading {
     color: white;
-    background-color: blue;
+    background-color: #530AEE;
     padding-left: 10px;
     font-size: 18px;
     position: sticky;
@@ -83,11 +83,11 @@ form {
     width: 100%;
     height: 42px;
     padding-left: 10px;
-    border: 2px solid blue;
+    border: 2px solid #530AEE;
     border-radius: 5px;
     outline: none;
     background: #F9F0DA;
-    color: blue;
+    color: #530AEE;
   }
   button {
     position: absolute; 
@@ -96,6 +96,6 @@ form {
     width: 60px;
     height: 42px;
     border: none;
-    background: blue;
+    background: #530AEE;
     border-radius: 0 5px 5px 0;
   }
