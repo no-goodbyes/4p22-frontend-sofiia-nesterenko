@@ -6,6 +6,7 @@ body, html {
     margin: 0;
     width: 100%;
     height: 100%;
+    
 }
 
 .container {
@@ -13,7 +14,9 @@ body, html {
     height: 100%;
     background-color: white;
     position: relative;
+    margin: 0;
 }
+
 
 .header__heading {
     background-color: #530AEE;
@@ -27,18 +30,20 @@ body, html {
 
 .leftside-bar {
     height: 450px;
-    width: 25%;
+    max-width: 13vw;
     position: absolute;
     top: 50px;
-    left: 30px;
+    min-width: 250px;
     border-right: 1px solid gray;
 }
 .leftside-bar__heading {
     font-size: 20px;
+    margin-left: 30px;
 }
 
 .leftside-bar__list {
     padding-left: 0;
+    margin-left: 30px;
 }
 
 .leftside-bar__list li {
@@ -52,10 +57,11 @@ body, html {
 }
 
 .content {
-    width: 65%;
+    width: 50%;
+
     position: absolute;
     top: 50px;
-    left: 400px;
+    left: 300px;
 }
 .content__heading {
     color: white;
