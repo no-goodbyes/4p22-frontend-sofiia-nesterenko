@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вход на сайт</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="entry-form">
+      <h1 class="entry-form__heading">Вход</h1>
+      <form class="entry-form__form">
+        <label class="entry-form__label" for="email">Email</label>
+        <input
+          class="entry-form__input"
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Введите email"
+        />
+        <label class="entry-form__label" for="password">Пароль</label>
+        <input
+          class="entry-form__input"
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Введите пароль"
+        />
+        <input
+          class="entry-form__checkbox"
+          id="checkbox"
+          type="checkbox"
+          name="checkbox"
+        />
+        <label for="checkbox" class="entry-form__checkbox-label"
+          >Я согласен получать обновления на почту
+        </label>
+        <button class="entry-form__button">Войти</button>
+      </form>
+    </div>
+  </body>
+</html>
