@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/reg.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,regular,italic,500,700,900,"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <title>Вход</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo"></div>
+      <div class="header__title">PCS Frontend</div>
+      <div class="header__link">
+        <a href="./reg.html" class="reg-header__reg">Регистрация</a>
+        <a href="./index.html" class="reg-header__login">Вход</a>
+      </div>
+    </header>
+    <main>
+      <div class="reg-form">
+        <h1 class="reg-form__heading">Регистрация</h1>
+        <form class="reg-form__form">
+          <label class="reg-form__label" for="email"
+            >Email
+            <span class="email-label"></span>
+          </label>
+          <input
+            class="reg-form__input email"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Введите email"
+            formnovalidate
+          />
+          <label class="reg-form__label" for="password"
+            >Пароль<span class="password-label"></span
+          ></label>
+          <input
+            class="reg-form__input password"
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Введите пароль"
+          />
+          <label class="reg-form__label required" for="confirmation"
+            >Подтверждение пароля<span class="confirmation-label"></span
+          ></label>
+          <input
+            class="reg-form__input confirmation"
+            id="confirmation"
+            type="password"
+            name="confirmation"
+            placeholder="Подтвердите пароль"
+          />
+
+          <div class="reg-form__radio">
+            <legend class="radio__legend">Пол</legend>
+            <div class="radio__man">
+              <input
+                class="radio__man-input"
+                type="radio"
+                name="sex"
+                id="man"
+                value="MAN"
+              />
+              <label class="radio__man-label" for="man">Мужчина</label>
+            </div>
+            <div class="radio__woman">
+              <input
+                class="radio__woman-input"
+                type="radio"
+                name="sex"
+                id="woman"
+                value="WOMAN"
+              />
+              <label class="radio__woman-label" for="woman">Женщина</label>
+            </div>
+          </div>
+          <div class="reg-form__textarea-comment">
+            <span class="textarea-comment__span">О себе</span>
+            <textarea
+              class="textarea-comment__textarea"
+              name="comment"
+              id="comment"
+              contenteditable="false"
+              placeholder="Расскажите о себе..."
+            ></textarea>
+          </div>
+          <div class="reg-form__checkbox">
+            <input
+              class="checkbox__input-checkbox"
+              type="checkbox"
+              id="checkbox"
+              name="checkbox"
+              value="TRUE"
+            />
+            <label class="checkbox__label-checkbox" for="checkbox"
+              >Я согласен получать обновления на почту</label
+            >
+          </div>
+
+          <button class="reg-form__button" id="reg-buttom">Регистрация</button>
+        </form>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,300,regular,italic,500,700,900,"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <title>Вход</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo"></div>
+      <div class="header__title">PCS Frontend</div>
+      <div class="header__link">
+        <a href="./reg.html" class="header__reg">Регистрация</a>
+        <a href="./index.html" class="header__login">Вход</a>
+      </div>
+    </header>
+    <main>
+      <div class="entry-form">
+        <h1 class="entry-form__heading">Вход</h1>
+        <form class="entry-form__form">
+          <label class="entry-form__label" for="email">Email</label>
+          <input
+            class="entry-form__input"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Введите email"
+          />
+          <label class="entry-form__label" for="password">Пароль</label>
+          <input
+            class="entry-form__input"
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Введите пароль"
+          />
+          <button class="entry-form__button">Войти</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
