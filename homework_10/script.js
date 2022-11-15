@@ -22,7 +22,7 @@ fetch("https://reqres.in/api/users?per_page=12")
       }
     }
 
-    console.log("----Задание 3----");
+    console.log("----Задание 4----");
 
     let ourUsers =[];
     ourUsers = usersData.reduce((sum, item, index, array) => {
@@ -39,7 +39,7 @@ fetch("https://reqres.in/api/users?per_page=12")
     console.log(`Наша база содержит данные следующих пользователей: ${ourUsers}`);
 
     
-    console.log("----Задание 4----");
+    console.log("----Задание 5----");
 
     // Первый вариант
     // for(let prop in usersData[0]) {
